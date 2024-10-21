@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitMq_Test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ear" target="11" />
+      <module name="ejbs" target="11" />
+      <module name="logging" target="11" />
+      <module name="primary-source" target="11" />
+      <module name="project" target="11" />
+      <module name="projects" target="11" />
+      <module name="servlet" target="11" />
+      <module name="servlets" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
